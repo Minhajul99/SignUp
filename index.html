@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <header>
+      <div class="container flex align-center">
+        <div class="logo">
+          <a href="#"><img src="img/logo.png" alt="" /></a>
+        </div>
+        <nav>
+          <ul class="flex">
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Sign Up</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="form-section">
+      <div class="container flex justify-content">
+        <div class="sign-up">
+          <form action="">
+            <label for="name">Full Name</label>
+            <input id="name" type="text" placeholder="Name"  autocomplete="off"/>
+            <label for="email">Email</label>
+            <input id="email" type="text" placeholder="email" />
+            <label for="password">Password</label>
+            <input id="password" type="text" placeholder="password" autocomplete="off"/>
+
+            <strong>Select Your Gender</strong>
+            <input id="male" type="radio" name="gender" />
+            <label for="male">Male</label>
+            <input id="female" type="radio" name="gender" />
+            <label for="female">Female</label>
+            <input id="other" type="radio" name="gender" />
+            <label for="other">Other</label>
+
+            <strong>Select Skills</strong>
+            <input id="java" type="checkbox" />
+            <label for="java">Java</label>
+            <input id="python" type="checkbox" />
+            <label for="python">Python</label>
+            <input id="php" type="checkbox" />
+            <label for="php">PHP</label>
+            <input id="react" type="checkbox" />
+            <label for="react">React</label>
+
+            <label for=""><b>Massage</b></label>
+            <textarea name="massage" id="" cols="10" rows="5"></textarea>
+
+            <input type="Submit" value="Sign Up" />
+            <p>I have an account <a href="login.html">login</a></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
